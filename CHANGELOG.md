@@ -1,3 +1,16 @@
+# v2.5.2 (2026-07-12)
+
+## What's Changed
+
+* chore(deps): update Go toolchain from 1.24.x to 1.25.12 by @cfc4n in https://github.com/gojue/ecapture/pull/1024
+* fix(gotls): segment BPF perf events into 16KB chunks for single hook output by @skylar2826 in https://github.com/gojue/ecapture/pull/1020
+* test(e2e): improve pcap interface detection with route verification by @cfc4n in https://github.com/gojue/ecapture/pull/1021
+* fix(nspr): fix bytecode loading and complete eBPF probe implementation by @cfc4n in https://github.com/gojue/ecapture/pull/1017
+* builder: simplify Dockerfile and fix CI build issues by @cfc4n
+
+**Full Changelog**: https://github.com/gojue/ecapture/compare/v2.5.1...v2.5.2
+<hr>
+
 # v2.5.1 (2026-06-20)
 
 ## What's Changed
